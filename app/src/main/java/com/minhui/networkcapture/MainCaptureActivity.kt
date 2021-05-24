@@ -92,7 +92,7 @@ class MainCaptureActivity : BaseActivity() {
         }*/
 
         ProxyConfig.Instance.registerVpnStatusListener(vpnStatusListener)
-        initAdas()
+//        initAdas()
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
